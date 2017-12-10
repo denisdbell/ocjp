@@ -2,9 +2,8 @@
 
 1. Navigate to Chapter1-Access-Modifiers
 
-2. javac -sourcepath src  -d classes src/cat/*/*.java
+2. javac $(find -name "*.java")
 
-3. java -cp classes cat.BigCat
+3. You will see the compilation errors in the console
 
 
-4. java -cp classes cat.species.Lynx

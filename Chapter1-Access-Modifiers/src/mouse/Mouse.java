@@ -1,8 +1,8 @@
-package cat.species;
+package mouse;
 
 import cat.BigCat;
 
-public class Lynx extends BigCat { 
+public class Mouse { 
 
     public static void main(String[] args) {
         BigCat cat = new BigCat();
@@ -11,4 +11,5 @@ public class Lynx extends BigCat {
         System. out .println(cat.hasPaws);
         System. out .println(cat.id);
     }
+
 }
